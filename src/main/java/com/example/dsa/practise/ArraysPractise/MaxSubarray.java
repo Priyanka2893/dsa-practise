@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.ArraysPractise;
+package com.example.dsa.practise.ArraysPractise;
 
 import org.w3c.dom.ls.LSOutput;
 

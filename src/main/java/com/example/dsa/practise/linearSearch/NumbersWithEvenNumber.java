@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.linearSearch;
+package com.example.dsa.practise.linearSearch;
 
 //https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/
 public class NumbersWithEvenNumber {

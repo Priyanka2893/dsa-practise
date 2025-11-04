@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.linearSearch;
+package com.example.dsa.practise.linearSearch;
 
 import java.util.Arrays;
 

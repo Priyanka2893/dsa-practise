@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.linearSearch;
+package com.example.dsa.practise.linearSearch;
 
 public class SearchInStrings {
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class SearchInStrings {
         System.out.println(search(name,target));
         System.out.println(search2(name,target));
     }
-
     static boolean search(String str, char ch){
         if(str.length() == 0){
             return false;

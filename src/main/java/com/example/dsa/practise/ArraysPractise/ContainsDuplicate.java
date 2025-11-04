@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.ArraysPractise;
+package com.example.dsa.practise.ArraysPractise;
 
 import java.util.HashSet;
 import java.util.Set;

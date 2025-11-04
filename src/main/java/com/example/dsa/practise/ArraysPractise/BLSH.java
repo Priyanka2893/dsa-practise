@@ -1,4 +1,4 @@
-package com.hpe.rana.translationtool.ArraysPractise;
+package com.example.dsa.practise.ArraysPractise;
 
 public class BLSH {
     public static void main(String[] args) {
