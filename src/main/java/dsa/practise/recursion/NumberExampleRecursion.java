@@ -24,12 +24,13 @@ public class NumberExampleRecursion {
     }
     static void print(int n){
         // base condition - where recursion stop making new call
-        if(n==5){
-            System.out.println(5);
+        if(n>5){
+//            System.out.println(5);
             return;
         }
         System.out.println(n);
         // Tail recursion - last step for function
         print(n+1);
+
     }
 }

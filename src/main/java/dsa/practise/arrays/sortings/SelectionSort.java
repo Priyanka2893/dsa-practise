@@ -17,6 +17,7 @@ public class SelectionSort {
         int[] arr = {6,3,-1,99,5};
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
+        //
     }
     static void selectionSort(int[] arr){
         for(int i=0; i < arr.length; i++){

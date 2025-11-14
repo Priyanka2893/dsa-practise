@@ -1,5 +1,9 @@
 package dsa.practise.recursion;
 
+/**
+ *  Queue - FIFO
+ *  Stack - LIFO - main() -
+ */
 public class NumbersExample {
     public static void main(String[] args) {
         //wrtite a function that takes a number and prints it

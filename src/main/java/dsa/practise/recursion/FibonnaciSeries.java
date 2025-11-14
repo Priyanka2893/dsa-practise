@@ -8,12 +8,28 @@ package dsa.practise.recursion;
  */
 public class FibonnaciSeries {
     public static void main(String[] args) {
-        System.out.println(getFibonacci(4));
+        int number = 4;
+//        System.out.println(getFibonacci(number)); // 0 + 1 + 1 + 2 + 3 + 5 + 8.....
+        for(int i =10; i<=20;i++){
+            System.out.println(getFibonacci(i));
+        }
     }
     static int getFibonacci(int n){
         if(n < 2){
             return n;
         }
-        return getFibonacci(n-1) + getFibonacci(n-2);
+        return getFibonacci(n-1) + getFibonacci(n-2);  // 1 + 0
+
+              // fibo(3) = 2 + fibo(2)
+             // fibo(2) = 1+0 + fibo(1) =1
+            // fib(1) + fibo(0) = 1 + 0
+
     }
-}
+
+}// => 4 = 3 + 2
+// => 3 = 2 + 1
+// => 2 = 1 + 0
+
+/**
+ *  =>sett
+ */

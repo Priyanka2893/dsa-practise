@@ -19,7 +19,7 @@ public class CyclicSort {
         System.out.println(Arrays.toString(arr));
     }
 
-    static void cyclicSort(int[] arr){
+    static void cyclicSort(int[] arr){ //[1,4,3,2,5] -> [1,2,3,4,5] ->
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1;

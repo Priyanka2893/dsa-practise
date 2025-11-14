@@ -5,7 +5,7 @@ public class BinarySearch {
         int[] arr = {11,34,65,89,90}; // in ascending order
         // arr = [0,0,0,0,0,1,,1,1,1,2,,2,....]
         int target = 11;
-        int[] arr2 = {90,89,65,34,11};
+        int[] arr2 = {90,89,65,34,11}; //in desc
         System.out.println(binarySearch1(arr2,target));
         System.out.println(binarySearch(arr,target));
     }
