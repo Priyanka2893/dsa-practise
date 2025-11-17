@@ -16,6 +16,9 @@ public class Test {
         listOfNames.stream().filter(s -> s.length() > 2).forEach(s -> System.out.println(s.charAt(2)));
 //        Arrays.stream(arr).filter(s -> s.length() > 2).forEach(s -> System.out.println(s.charAt(2)));
 
+        String s2 = "15-11-2025";
+        //output = "11/15/2025";
+
     }
 
 }

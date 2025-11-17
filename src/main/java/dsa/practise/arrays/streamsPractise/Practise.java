@@ -56,7 +56,23 @@ public class Practise {
 
     public record Employee(String name, String dept, int salary){ }
 
+    static void getAvgAge(){
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@ package dsa.practise.arrays.binarySearch;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr = {11,34,65,89,90}; // in ascending order
+        int[] arr = {11,34,65,89,90}; // in ascending order - n/2-n/4-n/8-n/16....
         // arr = [0,0,0,0,0,1,,1,1,1,2,,2,....]
         int target = 11;
         int[] arr2 = {90,89,65,34,11}; //in desc
